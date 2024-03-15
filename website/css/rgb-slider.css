@@ -10,6 +10,7 @@ font-family: Junegull;
 padding: 0px;
 margin: 0px;
 text-align: center;
+font-size: 20px;
 }
 
 
@@ -124,10 +125,20 @@ https://codepen.io/ibaslogic/pen/KKBLMxy
 }
 
 
-.RGB-text {
+
+
+
+.RGB-n-input {
     font-family: Junegull;
     font-size: 20px;
+    border: none;
+    outline: none;
     border-radius: 7px;
     text-align: center;
+    width: 50px;
+    opacity: 0.7;
+}
+.RGB-hex-input {
+    width: 110px;
 }
   

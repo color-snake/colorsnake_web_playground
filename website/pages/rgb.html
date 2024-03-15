@@ -18,7 +18,6 @@
     <body>
         <article>
             <section class="RGB-Slider-Box">
-                <!-- <h1>Coming Soon!</h1> -->
                 <p>
                 <input id="RGB_Red" type="range" min="0" max="255" value="210" class="slider">
                 <br/>
@@ -26,9 +25,14 @@
                 <br/>
                 <input id="RGB_Blue" type="range" min="0" max="255" value="214" class="slider">
                 <br/>
-                <input id="RGB_Red_Text" type="text" value="210" class="RGB-text">
-                <input id="RGB_Green_Text" type="text" value="210" class="RGB-text">
-                <input id="RGB_Blue_Text" type="text" value="210" class="RGB-text">
+                <span>R</span>
+                <input id="RGB_Red_Text" type="text" value="210" class="RGB-n-input">
+                <span>G</span>
+                <input id="RGB_Green_Text" type="text" value="245" class="RGB-n-input">
+                <span>B</span>
+                <input id="RGB_Blue_Text" type="text" value="214" class="RGB-n-input">
+                <span>Hex</span>
+                <input id="RGB_Hex_Text" type="text" value="#8E93EB" class="RGB-n-input RGB-hex-input">
                 </p>
             </section>
         </article>
@@ -39,19 +43,7 @@
 
         <!-- <footer>Copyright&copy: 2022 by <a href="https://gitlab.com/sleet-dev">Sleet Design</a></footer> -->
 
-
-        <script>
-            var slider = document.getElementById("RGB-Red");
-var output = document.getElementById("demo"); // Display the value here
-output.innerHTML = slider.value; // Display the default slider value
-
-// Update the current slider value (each time you drag the slider handle)
-slider.oninput = function() {
-  output.innerHTML = this.value;
-};
-
-        </script>
-
+        <script src="../js/rgb.js"></script>
         <script data-goatcounter="https://colorsnake.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 
     </body>
