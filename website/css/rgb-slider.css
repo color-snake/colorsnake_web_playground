@@ -27,6 +27,10 @@ font-size: 20px;
     align-items: center;
 }
 
+.difference {
+  mix-blend-mode: difference;
+}
+
 /*
 Following css form
 https://codepen.io/ibaslogic/pen/KKBLMxy 
