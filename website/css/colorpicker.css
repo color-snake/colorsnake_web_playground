@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Junegull;
+    src: url('junegull-rg.otf');
+ }
+
+body {
+/* background-color: #D2F5D6; */
+color: white;
+font-family: Junegull;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 20px;
+}
+
+
+
+.colorpicker-Box {
+    background-color: #8E93EB;
+    margin: 0px;
+    /* padding: 20px; */
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difference {
+  mix-blend-mode: difference;
+}
+
+/*
+Following css form
+https://codepen.io/ibaslogic/pen/KKBLMxy 
+*/
+
+
+#colorpicker {
+  width: 100px; /* Set a fixed width */
+  height: 100px; /* Set a fixed height */
+}
+
+/* .colorpicker::-webkit-color-swatch-wrapper {
+  padding: 0; 
+}
+.colorpicker::-webkit-color-swatch {
+  border: none;
+  border-radius: 50%;
+} */
+  
