@@ -23,9 +23,46 @@ function updateColor() {
     rgbBox.style.backgroundColor = `rgb(${redValue}, ${greenValue}, ${blueValue})`;
 }
 
+function updateSlidersFromHex() {
+    const hexValue = hexText.value;
+    const rgbValues = hexToRgb(hexValue);
+    if (rgbValues) {
+        redSlider.value = rgbValues.r;
+        greenSlider.value = rgbValues.g;
+        blueSlider.value = rgbValues.b;
+        updateColor();
+    }
+}
+
+function hexToRgb(hex) {
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    return result
+        ? {
+            r: parseInt(result[1], 16),
+            g: parseInt(result[2], 16),
+            b: parseInt(result[3], 16),
+        }
+        : null;
+}
+
 redSlider.addEventListener("input", updateColor);
 greenSlider.addEventListener("input", updateColor);
 blueSlider.addEventListener("input", updateColor);
+
+redText.addEventListener("input", () => {
+    redSlider.value = redText.value;
+    updateColor();
+});
+greenText.addEventListener("input", () => {
+    greenSlider.value = greenText.value;
+    updateColor();
+});
+blueText.addEventListener("input", () => {
+    blueSlider.value = blueText.value;
+    updateColor();
+});
+
+hexText.addEventListener("input", updateSlidersFromHex);
 
 // Initialize color on page load
 updateColor();

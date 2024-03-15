@@ -53,14 +53,14 @@ https://codepen.io/ibaslogic/pen/KKBLMxy
   /* Track: webkit browsers */
   input[type="range"]::-webkit-slider-runnable-track {
     height: 30px;
-    background: #D2F5D6;
+    background: #ffffff;
     border-radius: 16px;
   }
   
   /* Track: Mozilla Firefox */
   input[type="range"]::-moz-range-track {
     height: 30px;
-    background: #D2F5D6;
+    background: #ffffff;
     border-radius: 16px;
   }
   
