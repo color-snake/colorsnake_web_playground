@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CMYK Slider</title>
+        <link rel="shortcut icon" type="image/x-icon" href="../img/CS-logo-BG-01.png" />
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="A sleet template">
+        <meta name="author" content="Sleet Design">
+
+        <style>
+            @import url('../css/CMYK-slider.css');
+            @import url('');
+        </style>
+        
+    </head>
+    <body>
+        <article>
+            <section class="CMYK-Slider-Box">
+                <p>
+                <input id="CMYK_C" type="range" min="0" max="100" value="0" class="slider">
+                <br/>
+                <input id="CMYK_M" type="range" min="0" max="100" value="49" class="slider">
+                <br/>
+                <input id="CMYK_Y" type="range" min="0" max="100" value="77" class="slider">
+                <br/>
+                <input id="CMYK_K" type="range" min="0" max="100" value="7" class="slider">
+                <br/>
+                <span class="difference">C</span>
+                <input id="CMYK_C_Text" type="text" value="0" class="CMYK-n-input difference">
+                <span class="difference">M</span>
+                <input id="CMYK_M_Text" type="text" value="49" class="CMYK-n-input difference">
+                <span class="difference">Y</span>
+                <input id="CMYK_Y_Text" type="text" value="77" class="CMYK-n-input difference">
+                <span class="difference">K</span>
+                <input id="CMYK_K_Text" type="text" value="7" class="CMYK-n-input difference">
+                <span class="difference">Hex</span>
+                <input id="CMYK_Hex_Text" type="text" value="#D2F5D6" class="CMYK-n-input CMYK-hex-input difference">
+                </p>
+            </section>
+        </article>
+
+        <footer>
+            
+        </footer>
+
+        <!-- <footer>Copyright&copy: 2022 by <a href="https://gitlab.com/sleet-dev">Sleet Design</a></footer> -->
+
+        <script src="../js/CMYK.js"></script>
+        <script data-goatcounter="https://colorsnake.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+
+    </body>
+</html>

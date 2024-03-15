@@ -1,0 +1,160 @@
+@font-face {
+    font-family: Junegull;
+    src: url('junegull-rg.otf');
+ }
+
+body {
+/* background-color: #D2F5D6; */
+color: white;
+font-family: Junegull;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 20px;
+}
+
+
+
+.CMYK-Slider-Box {
+    background-color: #ED7936;
+    margin: 0px;
+    /* padding: 20px; */
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.difference {
+  mix-blend-mode: difference;
+}
+
+/*
+Following css form
+https://codepen.io/ibaslogic/pen/KKBLMxy 
+*/
+
+
+  
+ 
+  input[type="range"] {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    /* width: 100%; */
+    width: 80vw;
+    max-width: 400px;
+    cursor: pointer;
+    outline: none;
+    /*  slider progress trick  */
+    overflow: hidden;
+    border-radius: 16px;
+  }
+  
+  /* Track: webkit browsers */
+  input[type="range"]::-webkit-slider-runnable-track {
+    height: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+  }
+  
+  /* Track: Mozilla Firefox */
+  input[type="range"]::-moz-range-track {
+    height: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+  }
+  
+  /* Thumb: webkit */
+  input[type="range"]::-webkit-slider-thumb {
+    /* removing default appearance */
+    -webkit-appearance: none;
+    appearance: none; 
+    /* creating a custom design */
+    height: 30px;
+    width: 30px;
+    background-color: #300F31;
+    border-radius: 50%;
+    border: 1px solid #f50;
+    /*  slider progress trick  */
+    box-shadow: -413px 0 0 400px #f50;
+  }
+  
+  
+  /* Thumb: Firefox */
+  input[type="range"]::-moz-range-thumb {
+    height: 15px;
+    width: 15px;
+    background-color: #300F31;
+    border-radius: 50%;
+    border: 1px solid #f50;
+    /*  slider progress trick  */
+    box-shadow: -413px 0 0 400px #f50;
+  }
+  
+  
+  
+#CMYK_C::-webkit-slider-thumb {
+    border: 1px solid #00ffff;
+    box-shadow: -413px 0 0 400px #00ffff;
+}
+
+#CMYK_C::-moz-range-thumb {
+    border: 1px solid #00ffff;
+    box-shadow: -413px 0 0 400px #00ffff;
+}
+
+#CMYK_M::-webkit-slider-thumb {
+  border: 1px solid #ff00ff;
+  box-shadow: -413px 0 0 400px #ff00ff;
+}
+
+#CMYK_M::-moz-range-thumb {
+  border: 1px solid #ff00ff;
+  box-shadow: -413px 0 0 400px #ff00ff;
+}
+
+#CMYK_Y::-webkit-slider-thumb {
+  border: 1px solid #ffff00;
+  box-shadow: -413px 0 0 400px #ffff00;
+}
+
+#CMYK_Y::-moz-range-thumb {
+  border: 1px solid #ffff00;
+  box-shadow: -413px 0 0 400px #ffff00;
+}
+
+#CMYK_K::-webkit-slider-thumb {
+  border: 1px solid #000000;
+  box-shadow: -413px 0 0 400px #000000;
+}
+
+#CMYK_K::-moz-range-thumb {
+  border: 1px solid #000000;
+  box-shadow: -413px 0 0 400px #000000;
+}
+
+
+
+
+
+
+
+
+.CMYK-n-input {
+    font-family: Junegull;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    text-align: center;
+    width: 50px;
+    opacity: 0.7;
+}
+.CMYK-hex-input {
+    width: 110px;
+}
+  
