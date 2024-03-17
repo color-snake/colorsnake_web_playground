@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Junegull;
+    src: url('junegull-rg.otf');
+ }
+
+body {
+background-color: #D2F5D6;
+color: white;
+font-family: Junegull;
+padding: 0px;
+margin: 0px;
+text-align: center;
+}
+
+body h1 {
+    mix-blend-mode: difference;
+}
+
+header {
+    background-color: #8E93EB;
+    margin: 0px;
+    padding: 20px;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.mlink {
+    width: 20px;
+}
+
+/* article {
+
+}
+p {
+
+}
+footer {
+
+} */
