@@ -1,0 +1,45 @@
+@font-face {
+    font-family: Junegull;
+    src: url('junegull-rg.otf');
+ }
+
+body {
+
+background-color: #D2F5D6;
+font-family: Junegull;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 20px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+}
+
+
+
+.Random_Color_Box {
+    background-color: white;
+    margin: 0px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+#color_display {
+  background-color: #D2F5D6;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+/* .difference {
+  mix-blend-mode: difference;
+} */
+
+
+  
