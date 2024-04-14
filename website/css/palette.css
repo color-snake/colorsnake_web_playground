@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Junegull;
+    src: url('junegull-rg.otf');
+ }
+
+body {
+background-color: #D2F5D6;
+color: white;
+font-family: Junegull;
+padding: 0px;
+margin: 0px;
+text-align: center;
+font-size: 20px;
+
+padding: 20px;
+}
+
+
+.difference {
+  mix-blend-mode: difference;
+}
+
+
+/* pair style  */
+
+/* .Pair_Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* .palette {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+
+    margin: 10px;
+    display: inline-block;
+}
+.one, .two, .three, .four, .five {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+}
+.one {
+    background-color: black;
+    left: 0px;
+}
+.two {
+    background-color: white;
+    left: 40px;
+}
+.three {
+    background-color: black;
+    left: 80px;
+}
+.four {
+    background-color: white;
+    left: 120px;
+}
+.five {
+    background-color: black;
+    left: 160px;
+} */
+
+.palette {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    display: inline-block;
+}
+
+.color {
+    height: 100%;
+    width: 20%; /* Adjust width to evenly distribute the colors */
+    position: absolute;
+}
+
+/* Example color styling */
+.color:nth-child(1) {
+    background-color: black;
+    left: 0;
+}
+
+.color:nth-child(2) {
+    background-color: white;
+    left: 20%;
+}
+
+.color:nth-child(3) {
+    background-color: black;
+    left: 40%;
+}
+
+.color:nth-child(4) {
+    background-color: white;
+    left: 60%;
+}
+
+.color:nth-child(5) {
+    background-color: black;
+    left: 80%;
+}
+
+
+.more {
+    background-color: white;
+    border: 0px;
+    padding: 5px;
+    font-family: Junegull;
+}
+.more:hover {
+    background-color: rgb(106, 106, 106);
+}
