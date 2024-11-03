@@ -12,3 +12,10 @@ COLOR TOOL PAGES:
 
 access these on codepen
 https://codepen.io/collection/rxRYvP
+
+
+
+---
+
+
+THIS IS A PART OF THE COLOR SNAKE PROJECT BY NATHAN RENFROE & THE SUNSHINING
