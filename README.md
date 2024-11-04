@@ -1,5 +1,5 @@
 # colorsnake_web_playground
-(web playground for color snake)
+web playground for color snake
 
 
 COLOR TOOL PAGES:
