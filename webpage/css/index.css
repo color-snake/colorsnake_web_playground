@@ -12,7 +12,7 @@
  }
 
 body {
-/* background-color: #D2F5D6; */
+background-color: #6CEDEE;
 color: white;
 font-family: Junegull;
 padding: 0px;
@@ -34,7 +34,17 @@ header {
 
 #colorpicker {
     width: 50px;
-    position: absolute;
+    position: fixed;
     right: 20px;
     top: 20px;
+}
+
+
+footer {
+    /* height: 300px; */
+    font-family: "Arial Rounded MT Bold", sans-serif;
+    font-size: 15px;
+    text-align: left;
+    vertical-align: bottom;
+    padding: 10px;
 }
