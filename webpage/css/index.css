@@ -1,44 +1,43 @@
+
+
+/* RGB SLIDER */
+@import url('rgb-slider.css');
+
+
+/* APP BUTTONS */
+@import url('app_buttons.css');
+
+
+
 @font-face {
     font-family: Junegull;
     src: url('junegull-rg.otf');
  }
 
 body {
-background-color: #D2F5D6;
+/* background-color: #D2F5D6; */
 color: white;
 font-family: Junegull;
 padding: 0px;
 margin: 0px;
 text-align: center;
+font-size: 20px;
 }
 
-body h1 {
-    mix-blend-mode: difference;
-}
 
 header {
-    background-color: #8E93EB;
-    margin: 0px;
-    padding: 20px;
-
-    height: 100vh;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.mlink {
-    width: 20px;
-}
-
-/* article {
+    position: fixed;
+    top: 0px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    mix-blend-mode: difference;
+    width: 100%;
 
 }
-p {
 
+#colorpicker {
+    width: 50px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
-footer {
-
-} */
